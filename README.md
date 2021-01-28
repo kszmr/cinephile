@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Cinephile :movie_camera:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
