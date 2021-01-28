@@ -1,38 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300&family=Montserrat:wght@600;900&display=swap');
+
+.bar {
+  background-color: #00DB9C;
+  font-family: 'Montserrat', sans-serif;
+  width: 110vw;
+  display: flex;
+  color: #fff;
+}
+
+.searchInput {
+  font-family: 'Fraunces', serif;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 6px;
+  transition: 0.5s ease-in-out;
+}
+
+.searchInput:hover {
+  box-shadow: 0 5px 1em #aaa;
+  transition: 0.5s ease-in-out;
+}
+
+.searchInput:focus {
+  box-shadow: 0 10px 1em rgba(0,219,156,0.41220238095238093);
+  transition: 0.5s ease-in-out;
+}
+
+.card {
+  display: flex;
+  text-align: justify;
+  padding: 25px 10px;
+}
+
+.card img {
+  margin: 0 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 1em #aaa;
+  transition: 0.5s ease-in-out;
+}
+
+.card img:hover {
+  transform: scale(1.05);
+  transition: 0.5s ease-in-out;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.viewButton {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  margin: 10px 0;
+  padding: 5px 10px;
+  background: rgb(176,19,43);
+  background: linear-gradient(220deg, rgba(176,19,43,1) 0%, rgba(194,14,41,1) 100%);
+  transition: 0.5s ease-in-out;
+  outline: none;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 50px;
+}
+
+.viewButton:hover {
+  box-shadow: 0 0 1em rgba(194,14,41,0.5102415966386555);
+  transition: 0.5s ease-in-out;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family: 'Fraunces', serif;
+  font-size: 0.8rem;
+  overflow-x: hidden;
 }
