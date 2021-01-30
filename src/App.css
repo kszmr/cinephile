@@ -8,8 +8,13 @@
   color: #fff;
 }
 
+h3 {
+  font-size: 1.3rem;
+}
+
 .searchInput {
   font-family: 'Fraunces', serif;
+  font-size: 1.3rem;
   display: block;
   width: 100%;
   box-sizing: border-box;
@@ -25,6 +30,7 @@
 .searchInput:focus {
   box-shadow: 0 10px 1em rgba(0,219,156,0.41220238095238093);
   transition: 0.5s ease-in-out;
+  font-size: 1.5rem;
 }
 
 .card {
@@ -47,12 +53,13 @@
 
 .title {
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 .viewButton {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+  font-size: 1rem;
   letter-spacing: 0.05em;
   margin: 10px 0;
   padding: 5px 10px;
@@ -73,6 +80,6 @@
 .App {
   text-align: center;
   font-family: 'Fraunces', serif;
-  font-size: 0.8rem;
+  font-size: 1.3rem;
   overflow-x: hidden;
 }

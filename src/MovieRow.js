@@ -9,7 +9,7 @@ class MovieRow extends React.Component {
 
     render() {
         return <div className="card">
-            <div><img alt="poster" width="80" src={this.props.movie.posterSrc}/></div>
+            <div><img alt="poster" width="150" src={this.props.movie.posterSrc}/></div>
             
             <div className="text">
                 <div className="title">{this.props.movie.title}</div>

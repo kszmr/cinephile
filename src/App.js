@@ -12,7 +12,7 @@ class App extends Component {
 
   performSearch (searchedInput) {
     console.log('performsearch')
-    const urlString = "http://api.themoviedb.org/3/search/movie?api_key=1b5adf76a72a13bad99b8fc0c68cb085&query=" + searchedInput
+    const urlString = "https://api.themoviedb.org/3/search/movie?api_key=1b5adf76a72a13bad99b8fc0c68cb085&query=" + searchedInput
     $.ajax({
       url: urlString,
       success: (searchResults) => {
@@ -45,7 +45,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="bar">
-          <img alt="app logo" width="60" src="logo.png"/>
+          <img alt="app logo" width="80" src="logo.png"/>
           <h3>CinephileSearch</h3>
         </div>
 
